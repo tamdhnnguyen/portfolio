@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tam Nguyen's Portfolio - Projects</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+
+<header class="bg-blue-600 text-white text-center p-6 shadow-md">
+  <h1 class="text-3xl font-bold">Tam Nguyen's Portfolio</h1>
+</header>
+
+<nav class="bg-gray-900 text-white p-4 flex justify-center space-x-8 shadow-md">
+  <a href="index.html" class="hover:text-blue-400 font-semibold">Projects</a>
+  <a href="about.html" class="hover:text-blue-400 font-semibold">About Me</a>
+  <a href="https://www.linkedin.com/in/tamndhnnguyen/" target="_blank" class="hover:text-blue-400 font-semibold">LinkedIn</a>
+</nav>
+
+<section class="max-w-5xl mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+
+  <!-- Project 1 -->
+  <div class="bg-white p-4 rounded shadow transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl">
+    <h3 class="text-xl font-bold">🌾 Project 1 — AI-Powered Wheat Disease &amp; Pest Classification (Capstone Project)</h3>
+    <p class="mb-2">This capstone project developed an <strong>end-to-end deep learning system</strong> to identify <strong>wheat diseases and pest infestations</strong> from images and provide <strong>treatment recommendations</strong>. A <strong>two-stage classification pipeline</strong> first distinguishes healthy from unhealthy wheat, then performs fine-grained disease and pest classification.</p>
+    <h4 class="text-lg font-semibold mt-2 mb-1">Highlights:</h4>
+    <ul class="space-y-2">
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Built a <strong>two-stage CNN classification pipeline</strong> for wheat disease and pest identification</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Trained on <strong>13,104 high-resolution images across 15 classes</strong></li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Applied <strong>class weighting, data augmentation, transfer learning, and fine-tuning</strong></li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Achieved <strong>92.17% accuracy and 91.73% F1 score</strong> with the final two-stage system</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Deployed a <strong>Streamlit web app</strong> for image-based predictions and <strong>treatment recommendations</strong></li>
+    </ul>
+    <div class="flex flex-wrap gap-3 mt-4">
+      <a href="Wheat_Capstone_Final_Report.pdf" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition">📄 Final Report</a>
+      <a href="https://colab.research.google.com/drive/1XPk4a4dg7SkEdCISz2KdtOwwBNInlOel?usp=sharing" target="_blank" class="bg-yellow-500 text-white px-4 py-2 rounded shadow hover:bg-yellow-600 transition">💻 Open in Google Colab</a>
+      <a href="Wheat_Capstone_Poster.pdf" target="_blank" class="bg-purple-600 text-white px-4 py-2 rounded shadow hover:bg-purple-700 transition">🖼️ View Poster</a>
+      <a href="https://drive.google.com/file/d/1kjlYrDDx4hDMIUmaAraJGiPh9BQmublA/view?usp=sharing" target="_blank" class="bg-red-600 text-white px-4 py-2 rounded shadow hover:bg-red-700 transition">🎥 Demo Video</a>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="bg-white p-4 rounded shadow transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl">
+    <h3 class="text-xl font-bold">🚦 Project 2 — Road Object Detection</h3>
+    <p class="mb-2">Developed a <strong>computer vision object detection</strong> project to identify <strong>8 road-related classes</strong> in traffic scenes: bicycle, car, motorcycle, bus, train, truck, traffic light, and stop sign.</p>
+    <h4 class="text-lg font-semibold mt-2 mb-1">Highlights:</h4>
+    <ul class="space-y-2">
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Built an object detection workflow using <strong>Ultralytics</strong> for <strong>8 road-related classes:</strong> bicycle, car, motorcycle, bus, train, truck, traffic light, and stop sign.</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Achieved an overall <strong>mAP@50 of 82.4%</strong> across all classes.</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Achieved strong class-level performance, with <strong>mAP@50 scores ranging from 69.99% to 95.93%</strong> across the 8 detected classes.</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Visualized predictions with <strong>bounding boxes and class labels</strong> across <strong>multi-object road scenes</strong>.</li>
+    </ul>
+    <a href="https://colab.research.google.com/drive/1d3NcjKL2W8PVQLbZPkLPQ3b2Lqv1qzzx?usp=sharing" target="_blank" class="inline-block mt-3 bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition">🔗 Open in Colab</a>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="bg-white p-4 rounded shadow transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl">
+    <h3 class="text-xl font-bold">🛡️ Project 3 — <strong>Fraud Detection</strong> in Automobile Insurance Claims</h3>
+    <p class="mb-2">This project utilizes an <strong>insurance claims dataset</strong> from Kaggle to detect and forecast possible fraudulent claims. Following <strong>data preparation and cleaning</strong>, a range of <strong>statistical and machine learning methods</strong> were employed to categorize claims as <strong>fraudulent or non-fraudulent</strong>. The analysis helps insurance companies with <strong>risk segmentation</strong>, <strong>fraud detection</strong>, and <strong>equitable pricing strategies</strong>.</p>
+    <h4 class="text-lg font-semibold mt-2 mb-1">Highlights:</h4>
+    <ul class="space-y-2">
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Cleaned and preprocessed insurance claim data</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Used data visualization (<strong>Matplotlib</strong>, <strong>Seaborn</strong>) to detect patterns associated with car accidents and fraud</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Applied machine learning (<strong>Scikit-learn</strong>) models to develop a risk rating model</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Insights help in detecting high-risk customers and preventing fraud</li>
+    </ul>
+    <a href="https://colab.research.google.com/drive/1UWN6Ij09XdfP9YBOBfofB_iPLdTDLElc?usp=sharing" target="_blank" class="inline-block mt-3 bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition">🔗 Open in Colab</a>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="bg-white p-4 rounded shadow transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl">
+    <h3 class="text-xl font-bold">📊 Project 4 — HR Analytics Dashboard</h3>
+    <p class="mb-2">This project examines a comprehensive <strong>employee attrition</strong> dataset with over <strong>59,000 records</strong> to uncover factors affecting <strong>employee turnover</strong> and support practical HR decision-making. Through <strong>ETL procedures</strong>, <strong>data modeling</strong>, <strong>DAX measures</strong>, and <strong>Power BI dashboards</strong>, it highlights resignation patterns across business, demographic, and workplace factors.</p>
+    <h4 class="text-lg font-semibold mt-2 mb-1">Highlights:</h4>
+    <ul class="space-y-2">
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Performed <strong>ETL</strong> operations on employee, company, and performance data</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Built relationships between tables</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Created <strong>DAX measures</strong> and calculated columns</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Designed <strong>interactive Power BI</strong> dashboards for HR decision-making</li>
+    </ul>
+    <div class="flex flex-wrap gap-3 mt-3">
+      <a href="PowerBI_Project.pdf" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition">📄 Open PDF Report</a>
+    <a href="HR_Analysis.pbix" download class="inline-block mt-3 ml-2 bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition">⬇️ Download PBIX</a>
+    </div>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="bg-white p-4 rounded shadow transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl">
+    <h3 class="text-xl font-bold">🎬 Project 5 — Movie/BI Analytics</h3>
+    <p class="mb-2">This business intelligence project applies <strong>ETL</strong> and analytical methods to financial and performance data for more than <strong>4,400 movies</strong>. Using <strong>Excel's data model</strong>, <strong>PivotTables</strong>, and <strong>DAX calculations</strong>, the analysis identifies patterns in <strong>profitability</strong>, seasonal performance, audience ratings, and theater outcomes.</p>
+    <h4 class="text-lg font-semibold mt-2 mb-1">Highlights:</h4>
+    <ul class="space-y-2">
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Performed <strong>ETL</strong> operations including cleaning, type conversion, and missing-value handling</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Built relational tables and integrated them into <strong>Excel's data model</strong></li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Conducted analysis with <strong>PivotTables</strong> and <strong>DAX measures</strong> for <strong>ROI</strong>, <strong>profit</strong>, and <strong>revenue</strong></li>
+    </ul>
+    <div class="mt-3">
+      <a href="Excel_DAX_Project.pdf" target="_blank" class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition">📄 Open PDF Report</a>
+    </div>
+  </div>
+
+  <!-- Project 6 -->
+  <div class="bg-white p-4 rounded shadow transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl">
+    <h3 class="text-xl font-bold">📺 Project 6 — YouTube Data Analysis &amp; <strong>Web Scraping</strong></h3>
+    <p class="mb-2">This project centers on <strong>web scraping</strong> and analyzing YouTube videos and comments associated with the keyword “Snow White”. Using the <strong>YouTube Data API</strong>, metadata and comments from videos were gathered and examined. The project employed <strong>text mining</strong>, <strong>sentiment analysis</strong>, and <strong>visualization methods</strong> to investigate audience engagement and perspectives.</p>
+    <h4 class="text-lg font-semibold mt-2 mb-1">Highlights:</h4>
+    <ul class="space-y-2">
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Scraped YouTube videos and comments with the keyword “Snow White”</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Processed text using <strong>NLTK</strong>, <strong>TextBlob</strong>, and <strong>word clouds</strong> for insights</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Conducted <strong>sentiment analysis</strong> to gauge audience response</li>
+      <li class="flex items-center bg-gray-50 p-2 rounded shadow-sm"><span class="text-green-600 mr-2">✔️</span> Built <strong>simple regression</strong> models to identify relationships between engagement metrics</li>
+    </ul>
+    <a href="https://colab.research.google.com/drive/1x9KSs0kyx9IdDlV-baFmhA4r3nWCRGhQ?usp=sharing" target="_blank" class="inline-block mt-3 bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 transition">🔗 Open in Colab</a>
+  </div>
+
+</section>
+
+<footer class="bg-gray-800 text-white text-center p-4 mt-6">
+  <p>© 2026 Tam Nguyen</p>
+</footer>
+</body>
+</html>
